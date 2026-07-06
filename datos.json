@@ -1,0 +1,56 @@
+{
+  "_info": "Datos del Predictor de Futbol. Edita este archivo y sube el cambio a GitHub para que el programa lo descargue solo la proxima vez que lo abras.",
+  "_actualizado": "2026-07-06",
+
+  "elo": {
+    "España": 2159,
+    "Argentina": 2151,
+    "Francia": 2143,
+    "Inglaterra": 2046,
+    "Brasil": 2002.3,
+    "Portugal": 2013,
+    "Colombia": 2009,
+    "Noruega": 1962.7,
+    "Marruecos": 1921,
+    "Mexico": 1943,
+    "Suiza": 1943
+  },
+
+  "historial": {
+    "Brasil": [
+      "05-jul: Brasil 1 - 2 Noruega",
+      "29-jun: Brasil 2 - 1 Japon",
+      "25-jun: Escocia 0 - 3 Brasil"
+    ],
+    "Argentina": [
+      "04-jul: Argentina 3 - 2 Cabo Verde",
+      "28-jun: Jordania 1 - 3 Argentina",
+      "22-jun: Argentina 2 - 0 Austria"
+    ],
+    "Colombia": [
+      "04-jul: Colombia 1 - 0 Ghana",
+      "28-jun: Colombia 0 - 0 Portugal",
+      "24-jun: Colombia 1 - 0 Congo DR"
+    ],
+    "España": [
+      "02-jul: España 3 - 0 Austria",
+      "27-jun: Uruguay 0 - 1 España",
+      "21-jun: España 4 - 0 Arabia Saudita"
+    ],
+    "Marruecos": [
+      "04-jul: Canada 0 - 3 Marruecos",
+      "30-jun: Paises Bajos 1 - 1 Marruecos",
+      "25-jun: Marruecos 4 - 2 Haiti"
+    ],
+    "Noruega": [
+      "05-jul: Brasil 1 - 2 Noruega"
+    ]
+  },
+
+  "partidos_programados": [
+    {"fecha": "2026-07-06", "hora": "21:00 CEST", "local": "Portugal", "visita": "España"},
+    {"fecha": "2026-07-07", "hora": "18:00 CEST", "local": "Argentina", "visita": "Egipto"},
+    {"fecha": "2026-07-07", "hora": "22:00 CEST", "local": "Suiza", "visita": "Colombia"},
+    {"fecha": "2026-07-09", "hora": "22:00 CEST", "local": "Francia", "visita": "Marruecos"}
+  ]
+}
