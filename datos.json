@@ -18,37 +18,38 @@
 
   "historial": {
     "Brasil": [
-      "05-jul: Brasil 1 - 2 Noruega",
-      "29-jun: Brasil 2 - 1 Japon",
-      "25-jun: Escocia 0 - 3 Brasil"
+      {"fecha": "05-jul", "resultado": "Brasil 1 - 2 Noruega", "posesion": "34% - 66%", "remates": "12 - 9", "remates_arco": "4 - 5", "corners": "5 - 5", "faltas": "7 - 4", "tarjetas_am": "1 - 0"},
+      {"fecha": "29-jun", "resultado": "Brasil 2 - 1 Japon"},
+      {"fecha": "25-jun", "resultado": "Escocia 0 - 3 Brasil"}
     ],
     "Argentina": [
-      "04-jul: Argentina 3 - 2 Cabo Verde",
-      "28-jun: Jordania 1 - 3 Argentina",
-      "22-jun: Argentina 2 - 0 Austria"
+      {"fecha": "04-jul", "resultado": "Argentina 3 - 2 Cabo Verde", "posesion": "64% - 36%", "remates": "21 - 15", "remates_arco": "10 - 5", "corners": "8 - 8", "faltas": "13 - 12", "tarjetas_am": "1 - 1"},
+      {"fecha": "28-jun", "resultado": "Jordania 1 - 3 Argentina"},
+      {"fecha": "22-jun", "resultado": "Argentina 2 - 0 Austria"}
     ],
     "Colombia": [
-      "04-jul: Colombia 1 - 0 Ghana",
-      "28-jun: Colombia 0 - 0 Portugal",
-      "24-jun: Colombia 1 - 0 Congo DR"
+      {"fecha": "04-jul", "resultado": "Colombia 1 - 0 Ghana"},
+      {"fecha": "28-jun", "resultado": "Colombia 0 - 0 Portugal"},
+      {"fecha": "24-jun", "resultado": "Colombia 1 - 0 Congo DR"}
     ],
     "España": [
-      "02-jul: España 3 - 0 Austria",
-      "27-jun: Uruguay 0 - 1 España",
-      "21-jun: España 4 - 0 Arabia Saudita"
+      {"fecha": "02-jul", "resultado": "España 3 - 0 Austria"},
+      {"fecha": "27-jun", "resultado": "Uruguay 0 - 1 España"},
+      {"fecha": "21-jun", "resultado": "España 4 - 0 Arabia Saudita"}
     ],
     "Marruecos": [
-      "04-jul: Canada 0 - 3 Marruecos",
-      "30-jun: Paises Bajos 1 - 1 Marruecos",
-      "25-jun: Marruecos 4 - 2 Haiti"
+      {"fecha": "04-jul", "resultado": "Canada 0 - 3 Marruecos"},
+      {"fecha": "30-jun", "resultado": "Paises Bajos 1 - 1 Marruecos"},
+      {"fecha": "25-jun", "resultado": "Marruecos 4 - 2 Haiti"}
     ],
     "Noruega": [
-      "05-jul: Brasil 1 - 2 Noruega"
+      {"fecha": "05-jul", "resultado": "Brasil 1 - 2 Noruega", "posesion": "34% - 66%", "remates": "12 - 9", "remates_arco": "4 - 5", "corners": "5 - 5", "faltas": "7 - 4", "tarjetas_am": "1 - 0"}
     ]
   },
 
   "partidos_programados": [
     {"fecha": "2026-07-06", "hora": "21:00 CEST", "local": "Portugal", "visita": "España"},
+    {"fecha": "2026-07-07", "hora": "02:00 CEST", "local": "Estados Unidos", "visita": "Belgica"},
     {"fecha": "2026-07-07", "hora": "18:00 CEST", "local": "Argentina", "visita": "Egipto"},
     {"fecha": "2026-07-07", "hora": "22:00 CEST", "local": "Suiza", "visita": "Colombia"},
     {"fecha": "2026-07-09", "hora": "22:00 CEST", "local": "Francia", "visita": "Marruecos"}
