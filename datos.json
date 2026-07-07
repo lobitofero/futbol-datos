@@ -1,19 +1,21 @@
 {
   "_info": "Datos del Predictor de Futbol. Edita este archivo y sube el cambio a GitHub para que el programa lo descargue solo la proxima vez que lo abras.",
-  "_actualizado": "2026-07-06",
+  "_actualizado": "2026-07-07",
 
   "elo": {
-    "España": 2159,
+    "España": 2174.4,
     "Argentina": 2151,
     "Francia": 2143,
     "Inglaterra": 2046,
     "Brasil": 2002.3,
-    "Portugal": 2013,
+    "Portugal": 1997.6,
     "Colombia": 2009,
     "Noruega": 1962.7,
     "Marruecos": 1921,
     "Mexico": 1943,
-    "Suiza": 1943
+    "Suiza": 1943,
+    "Estados Unidos": 1861.5,
+    "Belgica": 1968.5
   },
 
   "historial": {
@@ -33,9 +35,9 @@
       {"fecha": "24-jun", "resultado": "Colombia 1 - 0 Congo DR"}
     ],
     "España": [
+      {"fecha": "07-jul", "resultado": "Portugal 0 - 1 España"},
       {"fecha": "02-jul", "resultado": "España 3 - 0 Austria"},
-      {"fecha": "27-jun", "resultado": "Uruguay 0 - 1 España"},
-      {"fecha": "21-jun", "resultado": "España 4 - 0 Arabia Saudita"}
+      {"fecha": "27-jun", "resultado": "Uruguay 0 - 1 España"}
     ],
     "Marruecos": [
       {"fecha": "04-jul", "resultado": "Canada 0 - 3 Marruecos"},
@@ -44,14 +46,16 @@
     ],
     "Noruega": [
       {"fecha": "05-jul", "resultado": "Brasil 1 - 2 Noruega", "posesion": "34% - 66%", "remates": "12 - 9", "remates_arco": "4 - 5", "corners": "5 - 5", "faltas": "7 - 4", "tarjetas_am": "1 - 0"}
+    ],
+    "Estados Unidos": [
+      {"fecha": "07-jul", "resultado": "Estados Unidos 1 - 4 Belgica"}
     ]
   },
 
   "partidos_programados": [
-    {"fecha": "2026-07-06", "hora": "21:00 CEST", "local": "Portugal", "visita": "España"},
-    {"fecha": "2026-07-07", "hora": "02:00 CEST", "local": "Estados Unidos", "visita": "Belgica"},
-    {"fecha": "2026-07-07", "hora": "18:00 CEST", "local": "Argentina", "visita": "Egipto"},
     {"fecha": "2026-07-07", "hora": "22:00 CEST", "local": "Suiza", "visita": "Colombia"},
-    {"fecha": "2026-07-09", "hora": "22:00 CEST", "local": "Francia", "visita": "Marruecos"}
+    {"fecha": "2026-07-09", "hora": "22:00 CEST", "local": "Francia", "visita": "Marruecos"},
+    {"fecha": "2026-07-10", "hora": "21:00 CEST", "local": "España", "visita": "Belgica"},
+    {"fecha": "2026-07-11", "hora": "23:00 CEST", "local": "Noruega", "visita": "Inglaterra"}
   ]
 }
