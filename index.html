@@ -460,12 +460,32 @@ function elegirPartidoProgramado(idx){
     const bloques = partidos.map(p => {
       if (typeof p === "string") return p;
       let extra = `<b>${p.fecha}:</b> ${p.resultado}`;
+      const partes = p.resultado.split(" - ");
+      const nomIzq = partes[0] ? partes[0].split(" ").slice(0, -1).join(" ") : "Local";
+      const nomDer = partes[1] ? partes[1].split(" ").slice(1).join(" ") : "Visita";
       const detalles = [];
-      if (p.posesion) detalles.push(`Posesion: ${p.posesion}`);
-      if (p.remates) detalles.push(`Remates: ${p.remates} (al arco: ${p.remates_arco || "-"})`);
-      if (p.corners) detalles.push(`Corners: ${p.corners}`);
-      if (p.faltas) detalles.push(`Faltas: ${p.faltas} | Amarillas: ${p.tarjetas_am || "-"}`);
-      if (detalles.length) extra += `<br><span style="color:var(--text-muted);font-size:12px">${detalles.join(" · ")}</span>`;
+      if (p.posesion) {
+        const [a, b] = p.posesion.split(" - ");
+        detalles.push(`Posesion: ${nomIzq} ${a} | ${nomDer} ${b}`);
+      }
+      if (p.remates) {
+        const [a, b] = p.remates.split(" - ");
+        const arco = (p.remates_arco || "- - -").split(" - ");
+        detalles.push(`Remates: ${nomIzq} ${a} (arco ${arco[0]||"-"}) | ${nomDer} ${b} (arco ${arco[1]||"-"})`);
+      }
+      if (p.corners) {
+        const [a, b] = p.corners.split(" - ");
+        detalles.push(`Corners: ${nomIzq} ${a} | ${nomDer} ${b}`);
+      }
+      if (p.faltas) {
+        const [a, b] = p.faltas.split(" - ");
+        detalles.push(`Faltas: ${nomIzq} ${a} | ${nomDer} ${b}`);
+      }
+      if (p.tarjetas_am) {
+        const [a, b] = p.tarjetas_am.split(" - ");
+        detalles.push(`Amarillas: ${nomIzq} ${a} | ${nomDer} ${b}`);
+      }
+      if (detalles.length) extra += `<br><span style="color:var(--text-muted);font-size:12px">${detalles.join("<br>")}</span>`;
       return extra;
     });
     document.getElementById("modalTexto").innerHTML = bloques.join("<br><br>");
