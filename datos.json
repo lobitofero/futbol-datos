@@ -20,12 +20,12 @@
 
   "historial": {
     "Brasil": [
-      {"fecha": "05-jul", "resultado": "Brasil 1 - 2 Noruega", "posesion": "34% - 66%", "remates": "12 - 9", "remates_arco": "4 - 5", "corners": "5 - 5", "faltas": "7 - 4", "tarjetas_am": "1 - 0"},
+      {"fecha": "05-jul", "resultado": "Brasil 1 - 2 Noruega", "posesion": "34% - 66%", "remates": "12 - 9", "remates_arco": "4 - 5", "corners": "5 - 5", "faltas": "7 - 4", "tarjetas_am": "1 - 0", "goleador": "Noruega: Haaland (min 79 y 90, doblete) | Brasil: Neymar (penal, min 90+8)", "curioso": "Tras la eliminacion, Neymar anuncio su retiro de la seleccion brasileña."},
       {"fecha": "29-jun", "resultado": "Brasil 2 - 1 Japon"},
       {"fecha": "25-jun", "resultado": "Escocia 0 - 3 Brasil"}
     ],
     "Argentina": [
-      {"fecha": "04-jul", "resultado": "Argentina 3 - 2 Cabo Verde", "posesion": "64% - 36%", "remates": "21 - 15", "remates_arco": "10 - 5", "corners": "8 - 8", "faltas": "13 - 12", "tarjetas_am": "1 - 1"},
+      {"fecha": "04-jul", "resultado": "Argentina 3 - 2 Cabo Verde", "posesion": "64% - 36%", "remates": "21 - 15", "remates_arco": "10 - 5", "corners": "8 - 8", "faltas": "13 - 12", "tarjetas_am": "1 - 1", "goleador": "Argentina: Messi (min 29), Lisandro Martinez (min 92), Cristian Romero (min 110, en tiempo extra) | Cabo Verde: Duarte (min 59), Lopes Cabral (min 103)", "curioso": "Se definio en tiempo extra; Cabo Verde hizo historia como debutante llegando a esta instancia."},
       {"fecha": "28-jun", "resultado": "Jordania 1 - 3 Argentina"},
       {"fecha": "22-jun", "resultado": "Argentina 2 - 0 Austria"}
     ],
@@ -35,7 +35,7 @@
       {"fecha": "24-jun", "resultado": "Colombia 1 - 0 Congo DR"}
     ],
     "España": [
-      {"fecha": "07-jul", "resultado": "Portugal 0 - 1 España"},
+      {"fecha": "07-jul", "resultado": "Portugal 0 - 1 España", "goleador": "Mikel Merino (min 90, asistencia de Ferran Torres)", "curioso": "Con esta derrota, Cristiano Ronaldo se despidio de los Mundiales."},
       {"fecha": "02-jul", "resultado": "España 3 - 0 Austria"},
       {"fecha": "27-jun", "resultado": "Uruguay 0 - 1 España"}
     ],
@@ -45,10 +45,10 @@
       {"fecha": "25-jun", "resultado": "Marruecos 4 - 2 Haiti"}
     ],
     "Noruega": [
-      {"fecha": "05-jul", "resultado": "Brasil 1 - 2 Noruega", "posesion": "34% - 66%", "remates": "12 - 9", "remates_arco": "4 - 5", "corners": "5 - 5", "faltas": "7 - 4", "tarjetas_am": "1 - 0"}
+      {"fecha": "05-jul", "resultado": "Brasil 1 - 2 Noruega", "posesion": "34% - 66%", "remates": "12 - 9", "remates_arco": "4 - 5", "corners": "5 - 5", "faltas": "7 - 4", "tarjetas_am": "1 - 0", "goleador": "Noruega: Haaland (min 79 y 90, doblete) | Brasil: Neymar (penal, min 90+8)", "curioso": "Noruega llego por primera vez en su historia a cuartos de final de un Mundial."}
     ],
     "Estados Unidos": [
-      {"fecha": "07-jul", "resultado": "Estados Unidos 1 - 4 Belgica"}
+      {"fecha": "07-jul", "resultado": "Estados Unidos 1 - 4 Belgica", "goleador": "Belgica: De Ketelaere (doblete), Vanaken, Lukaku | Estados Unidos: Malik Tillman (tiro libre)", "curioso": "Con esta derrota, los tres paises anfitriones (EEUU, Mexico y Canada) quedaron eliminados en octavos."}
     ]
   },
 
