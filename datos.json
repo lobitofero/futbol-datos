@@ -1,6 +1,6 @@
 {
   "_info": "Datos del Predictor de Futbol. Edita este archivo y sube el cambio a GitHub para que el programa lo descargue solo la proxima vez que lo abras.",
-  "_actualizado": "2026-07-07",
+  "_actualizado": "2026-07-08",
 
   "elo": {
     "España": 2174.4,
@@ -25,11 +25,12 @@
       {"fecha": "25-jun", "resultado": "Escocia 0 - 3 Brasil"}
     ],
     "Argentina": [
-      {"fecha": "04-jul", "resultado": "Argentina 3 - 2 Cabo Verde", "posesion": "64% - 36%", "remates": "21 - 15", "remates_arco": "10 - 5", "corners": "8 - 8", "faltas": "13 - 12", "tarjetas_am": "1 - 1", "goleador": "Argentina: Messi (min 29), Lisandro Martinez (min 92), Cristian Romero (min 110, en tiempo extra) | Cabo Verde: Duarte (min 59), Lopes Cabral (min 103)", "curioso": "Se definio en tiempo extra; Cabo Verde hizo historia como debutante llegando a esta instancia."},
-      {"fecha": "28-jun", "resultado": "Jordania 1 - 3 Argentina"},
-      {"fecha": "22-jun", "resultado": "Argentina 2 - 0 Austria"}
+      {"fecha": "07-jul", "resultado": "Argentina 3 - 2 Egipto", "goleador": "Argentina: Cristian Romero (min 79), Messi (min 83, tras fallar un penal antes), Enzo Fernandez (min 92) | Egipto: Yasser Ibrahim (min 15), Mostafa Ziko (min 67)", "curioso": "Argentina remonto un 0-2 en los ultimos 15 minutos para clasificar a cuartos."},
+      {"fecha": "04-jul", "resultado": "Argentina 3 - 2 Cabo Verde", "posesion": "64% - 36%", "remates": "21 - 15", "remates_arco": "10 - 5", "corners": "8 - 8", "faltas": "13 - 12", "tarjetas_am": "1 - 1", "goleador": "Argentina: Messi (min 29), Lisandro Martinez (min 92), Cristian Romero (min 110, en tiempo extra) | Cabo Verde: Duarte (min 59), Lopes Cabral (min 103)"},
+      {"fecha": "28-jun", "resultado": "Jordania 1 - 3 Argentina"}
     ],
     "Colombia": [
+      {"fecha": "07-jul", "resultado": "Suiza 0 - 0 Colombia (4-3 penales)", "curioso": "Suiza avanzo por penales tras un empate sin goles en el tiempo reglamentario."},
       {"fecha": "04-jul", "resultado": "Colombia 1 - 0 Ghana"},
       {"fecha": "28-jun", "resultado": "Colombia 0 - 0 Portugal"},
       {"fecha": "24-jun", "resultado": "Colombia 1 - 0 Congo DR"}
@@ -47,15 +48,18 @@
     "Noruega": [
       {"fecha": "05-jul", "resultado": "Brasil 1 - 2 Noruega", "posesion": "34% - 66%", "remates": "12 - 9", "remates_arco": "4 - 5", "corners": "5 - 5", "faltas": "7 - 4", "tarjetas_am": "1 - 0", "goleador": "Noruega: Haaland (min 79 y 90, doblete) | Brasil: Neymar (penal, min 90+8)", "curioso": "Noruega llego por primera vez en su historia a cuartos de final de un Mundial."}
     ],
+    "Suiza": [
+      {"fecha": "07-jul", "resultado": "Suiza 0 - 0 Colombia (4-3 penales)", "curioso": "Suiza avanzo por penales tras un empate sin goles en el tiempo reglamentario."}
+    ],
     "Estados Unidos": [
       {"fecha": "07-jul", "resultado": "Estados Unidos 1 - 4 Belgica", "goleador": "Belgica: De Ketelaere (doblete), Vanaken, Lukaku | Estados Unidos: Malik Tillman (tiro libre)", "curioso": "Con esta derrota, los tres paises anfitriones (EEUU, Mexico y Canada) quedaron eliminados en octavos."}
     ]
   },
 
   "partidos_programados": [
-    {"fecha": "2026-07-07", "hora": "22:00 CEST", "local": "Suiza", "visita": "Colombia"},
     {"fecha": "2026-07-09", "hora": "22:00 CEST", "local": "Francia", "visita": "Marruecos"},
     {"fecha": "2026-07-10", "hora": "21:00 CEST", "local": "España", "visita": "Belgica"},
-    {"fecha": "2026-07-11", "hora": "23:00 CEST", "local": "Noruega", "visita": "Inglaterra"}
+    {"fecha": "2026-07-11", "hora": "23:00 CEST", "local": "Noruega", "visita": "Inglaterra"},
+    {"fecha": "2026-07-11", "hora": "22:00 CEST", "local": "Suiza", "visita": "Argentina"}
   ]
 }
